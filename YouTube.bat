@@ -19,7 +19,7 @@ echo [ UPDATER ]
 echo.
 echo Buscando Actualizaciones
 echo.
-youtube-dl -U
+yt-dlp -U
 echo.
 pause
 echo.
@@ -37,7 +37,7 @@ set /P Link="[URL] "
 ::if %Link% == 0 (goto seleccion)
 echo Iniciando descarga
 echo.
-youtube-dl -o %%(title)s.%%(ext)s -i --ignore-config --hls-prefer-native %Link% --ffmpeg-location ".\ffmpeg\bin"
+yt-dlp -o %%(title)s.%%(ext)s -i --ignore-config --hls-prefer-native %Link% --ffmpeg-location ".\ffmpeg\bin"
 echo. 
 pause
 echo. 
@@ -56,7 +56,7 @@ set /P Link="[URL] "
 ::if %Link% == 0 (goto seleccion)
 echo Iniciando descarga
 echo.
-youtube-dl -o %%(title)s.%%(ext)s --extract-audio --audio-format mp3 %Link% --ffmpeg-location ".\ffmpeg\bin"
+yt-dlp -o %%(title)s.%%(ext)s --extract-audio --audio-format mp3 %Link% --ffmpeg-location ".\ffmpeg\bin"
 echo. 
 pause
 echo. 
