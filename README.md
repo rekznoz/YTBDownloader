@@ -16,7 +16,7 @@ https://github.com/BtbN/FFmpeg-Builds
 
 ![Crear carpeta ffmpeg](img/image-2.png)
 
-##### colocar dentro de la carpeta ffmpeg, quedando la carpeta bin, en la raiz de la carpeta ffmpeg como se ve en la imagen.
+##### colocar la decarga del resositorio de "ffmpeg" dentro de la carpeta "ffmpeg" recien creada, quedando la carpeta "bin", en la raiz de la carpeta "ffmpeg" como se ve en la imagen.
 
 ![Descargar repositorio ffmpeg](img/image.png)
 
